@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 img {
     width: 100%;
     object-fit: contain;
@@ -8,11 +14,11 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 1rem;
+    padding: 0.5rem;
     background-image: url(../Milestone1/img/wall.png);
     font-family: "Edu TAS Beginner", cursive;
     font-optical-sizing: auto;
-    font-size: 3rem;
+    font-size: 1rem;
 }
 
 main {
@@ -29,7 +35,7 @@ main {
     border: 20px solid #ffffff;
     width: 350px;
     height: fit-content;
-    margin: 30px 20px;
+    margin: 20px 20px;
     box-shadow: 0 3px 7px #000000;
 }
 
