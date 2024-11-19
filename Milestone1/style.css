@@ -17,3 +17,8 @@ img {
     font-optical-sizing: auto;
     font-size: 3rem;
 }
+
+main {
+    height: 100vh;
+    background-image: url(../Milestone1/img/cork.png);
+}
