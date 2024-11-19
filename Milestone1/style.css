@@ -1,5 +1,19 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+img {
+    width: 100%;
+    object-fit: contain;
+    object-fit: cover;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background-image: url(../assets_day1/img/wall.png);
+}
+
+.estate {
+    font-family: "Edu TAS Beginner", cursive;
+    font-optical-sizing: auto;
+    font-size: 3rem;
 }
