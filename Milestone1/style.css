@@ -46,3 +46,19 @@ img {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+button {
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.container-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-button img {
+    width: 500px;
+}
