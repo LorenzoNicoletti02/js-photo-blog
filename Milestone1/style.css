@@ -5,60 +5,43 @@
 }
 
 img {
-    width: 100%;
-    object-fit: cover;
-    object-fit: contain;
+    max-width: 100%;
+    border-radius: 5px;
 }
 
-.title {
-    width: 100vw;
-    height: 15vh;
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.container {
+    width: 80%;
+    background-color: rgb(222, 166, 126);
+    margin: 0 auto;
+}
+
+.row {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: url(../Milestone1/img/wall.png);
-}
-
-.estate {
-    font-family: "Edu TAS Beginner", cursive;
-    font-size: 3.5rem;
-}
-
-.cont {
-    padding: 8%;
-    width: 100wv;
-    height: 100%;
-    background-image: url(../Milestone1/img/cork.png);
+    flex-wrap: wrap;
+    border: 1px solid black;
+    gap: 10px;
 }
 
 .card {
-    position: relative;
-}
-
-.card-text {
-    font-family: "Edu TAS Beginner", cursive;
-    text-align: start;
-}
-
-.pin {
-    position: absolute;
-    top: 0%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-button {
-    padding: 1rem;
-    font-size: 2rem;
-}
-
-.container-button {
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
+    padding: 10px;
+    width: calc((100% / 3) - 20px);
 }
 
-.container-button img {
-    width: 500px;
+p {
+    color: white;
+    font-size: 25px;
+    padding-top: 10px;
 }
+
+
